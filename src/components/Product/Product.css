@@ -18,7 +18,7 @@
     left: 0;
     width: 312px;
     height: 472px;
-    background: url('/images/product-bg.png') no-repeat left bottom;
+    background: url('/fb-css-test/images/product-bg.png') no-repeat left bottom;
 }
 
 .product::after {
