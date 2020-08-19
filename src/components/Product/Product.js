@@ -9,6 +9,7 @@ function Product(props) {
     const selectProduct = () => {
         if (!props.disabled) {
             setSelected(!selected);
+            setMouseState(false);
         }
     }
 

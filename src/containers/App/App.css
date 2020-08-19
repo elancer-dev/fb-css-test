@@ -6,6 +6,13 @@
     align-items: center;
 }
 
+.app__container::before{
+    content: '';
+    display: inline-block;
+    min-height: 100vh;
+    visibility: hidden;
+}
+
 .app__title {
     font-family: 'Exo 2', sans-serif;
     font-size: 36px;
