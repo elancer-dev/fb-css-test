@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/fb-css-test/static/css/main.ca0a7df8.chunk.css",
-    "main.js": "/fb-css-test/static/js/main.c3a810d4.chunk.js",
+    "main.css": "/fb-css-test/static/css/main.7ccf09c7.chunk.css",
+    "main.js": "/fb-css-test/static/js/main.78acaef8.chunk.js",
     "runtime-main.js": "/fb-css-test/static/js/runtime-main.4cbfc3ce.js",
     "static/css/2.ad2035f6.chunk.css": "/fb-css-test/static/css/2.ad2035f6.chunk.css",
     "static/js/2.0b8211fc.chunk.js": "/fb-css-test/static/js/2.0b8211fc.chunk.js",
     "index.html": "/fb-css-test/index.html",
-    "precache-manifest.52948369b1fc20e5b49a8e6e470d2b24.js": "/fb-css-test/precache-manifest.52948369b1fc20e5b49a8e6e470d2b24.js",
+    "precache-manifest.c94b43438efa5147b90241cfc2d17e1e.js": "/fb-css-test/precache-manifest.c94b43438efa5147b90241cfc2d17e1e.js",
     "service-worker.js": "/fb-css-test/service-worker.js",
     "static/js/2.0b8211fc.chunk.js.LICENSE.txt": "/fb-css-test/static/js/2.0b8211fc.chunk.js.LICENSE.txt"
   },
@@ -14,7 +14,7 @@
     "static/js/runtime-main.4cbfc3ce.js",
     "static/css/2.ad2035f6.chunk.css",
     "static/js/2.0b8211fc.chunk.js",
-    "static/css/main.ca0a7df8.chunk.css",
-    "static/js/main.c3a810d4.chunk.js"
+    "static/css/main.7ccf09c7.chunk.css",
+    "static/js/main.78acaef8.chunk.js"
   ]
 }

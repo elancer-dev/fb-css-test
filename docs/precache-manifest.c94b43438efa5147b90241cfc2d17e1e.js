@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e9a715154cab381c275e09bca6f72cb",
+    "revision": "4420ce8e9495ef9c7e51f4eaa1aeecdb",
     "url": "/fb-css-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fb-css-test/static/css/2.ad2035f6.chunk.css"
   },
   {
-    "revision": "10a7dfbc37c0b76d53e7",
-    "url": "/fb-css-test/static/css/main.ca0a7df8.chunk.css"
+    "revision": "e7a9276cf1b705026bb5",
+    "url": "/fb-css-test/static/css/main.7ccf09c7.chunk.css"
   },
   {
     "revision": "c3c8d17cd1bb0c658a2e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fb-css-test/static/js/2.0b8211fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10a7dfbc37c0b76d53e7",
-    "url": "/fb-css-test/static/js/main.c3a810d4.chunk.js"
+    "revision": "e7a9276cf1b705026bb5",
+    "url": "/fb-css-test/static/js/main.78acaef8.chunk.js"
   },
   {
     "revision": "a30832d999b4f6a2fd48",
