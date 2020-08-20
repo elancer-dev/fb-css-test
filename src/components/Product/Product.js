@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Product.css';
+import './Product.scss';
 
 function Product(props) {
 
