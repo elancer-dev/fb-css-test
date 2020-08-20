@@ -10,7 +10,7 @@ $product-disabled-color:#b3b3b3;
 $product-disabled-color-str:b3b3b3;
 
 @function svgBG($color) {
-    @return "data:image/svg+xml;charset=utf8,%3Csvg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,0 39,0 0,39' fill='%23"+$color+"' stroke='none' /%3E%3C/svg%3E";
+    @return "data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,0 39,0 0,39' fill='%23"+$color+"' stroke='none' /%3E%3C/svg%3E";
 }
 
 .product {
@@ -26,6 +26,7 @@ $product-disabled-color-str:b3b3b3;
     background-color: #f2f2f2;
     background-position: left top;
     background-image: url(svgBG($product-color-str));
+    background-repeat: no-repeat;
 }
 
 .product::before {
