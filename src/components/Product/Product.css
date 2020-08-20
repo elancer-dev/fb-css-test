@@ -9,6 +9,8 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 1;
     background-color: #f2f2f2;
+    background-position: left top;
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><polygon points='0,0 39,0 0,39' fill='%231698d9' stroke='none' /></svg>");
 }
 
 .product::before {
@@ -19,18 +21,6 @@
     width: 312px;
     height: 472px;
     background: url('/fb-css-test/images/product-bg.png') no-repeat left bottom;
-}
-
-.product::after {
-    content: '';
-    position: absolute;
-    top: 37px;
-    left: -2px;
-    width: 60px;
-    height: 4px;
-    background-color: #1698d9;
-    transform-origin: left bottom;
-    transform: rotate(-45deg);
 }
 
 .product__slogan {
@@ -98,10 +88,7 @@
 .product:hover {
     cursor: pointer;
     border-color: #2ea8e6;
-}
-
-.product:hover::after {
-    background-color: #2ea8e6;
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><polygon points='0,0 39,0 0,39' fill='%232ea8e6' stroke='none' /></svg>");
 }
 
 .product:hover .product__weight {
@@ -112,10 +99,7 @@
 
 .product--selected.product {
     border-color: #d91667;
-}
-
-.product--selected.product::after {
-    background-color: #d91667;
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><polygon points='0,0 39,0 0,39' fill='%23d91667' stroke='none' /></svg>");
 }
 
 .product--selected .product__weight {
@@ -127,10 +111,7 @@
 .product--selected.product:hover {
     cursor: pointer;
     border-color: #e62e7a;
-}
-
-.product--selected.product:hover::after {
-    background-color: #e62e7a;
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><polygon points='0,0 39,0 0,39' fill='%23e62e7a' stroke='none' /></svg>");
 }
 
 .product--selected.product:hover .product__weight {
@@ -140,16 +121,13 @@
 /* disabled */
 
 .product--disabled.product {
-    border-color: #b3b3b3;
     cursor: auto;
+    border-color: #b3b3b3;
+    background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><polygon points='0,0 39,0 0,39' fill='%23b3b3b3' stroke='none' /></svg>");
 }
 
 .product--disabled.product::before {
     opacity: 0.5;
-}
-
-.product--disabled.product::after {
-    background-color: #b3b3b3;
 }
 
 .product--disabled .product__slogan,
